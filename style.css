@@ -437,3 +437,56 @@ body, html {
 }
 
 /* Learn more Section */
+.learn-section{
+    margin-top: 110px;
+    margin-bottom: 120px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.learn-container{
+    width: 1280px;
+    height: 400px;
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: row;
+    border-radius: 120px;
+}
+
+.learn-img{
+    margin-top: -100px;
+    margin-left: 100px;
+    width: 500px;
+    height: 500px;
+}
+
+.learn-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.learn-text{
+    margin-left: 30px;
+    font-size: 60px;
+    font-family: var(--font-outfit);
+    color: var(--text-color);
+}
+
+.learn-link{
+    width: 220px;
+    height: 60px;
+    text-decoration: none;
+    color: var(--text-color);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 120px;
+}
