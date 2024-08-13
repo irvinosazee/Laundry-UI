@@ -7,6 +7,7 @@
     --secondary-color: #D0F6FF;
     --secondary-color-2: #489FB5;
     --text-color :#263238;
+    --text-color-2 :#A9A9AA;
     --font-Grandstander: "Grandstander", cursive;
     --font-inter: "Inter", sans-serif;
     --font-outfit: "Outfit", sans-serif;
@@ -187,7 +188,7 @@ body, html {
 /* How it works */
 .steps-section{
     width: 100%;
-    padding: 30px;
+    padding: 50px;
     background-color: var(--secondary-color);
     display: flex;
     flex-direction: column;
@@ -258,4 +259,181 @@ body, html {
     object-fit: cover;
 }
 
+
 /* Section */
+.services-section{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-title{
+    font-family: var(--font-Grandstander);
+    font-weight: 400;
+    font-size: xx-large;
+    margin-top: 20px;
+    color: var(--primary-color);
+}
+
+.services-subtitle{
+    font-family: var(--font-outfit);
+    font-weight: 500;
+    font-size: 60px;
+    margin-top: 20px;
+    color: var(--text-color);
+}
+
+.services-container{
+    margin-top: 90px;
+    gap: 24px;
+    display: flex;
+    flex-direction: row;
+}
+
+.services-card{
+    width: 400px;
+    height: 572px;
+    padding: 15px;
+    padding-top: 25px;
+    /* background-color: wheat; */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.services-card-top-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.services-card-head{
+    display: flex;
+    align-items: center;
+}
+
+.services-card-head-img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    object-fit: contain;
+}
+
+.services-card-head-title{
+    display: flex;
+    flex-direction: column;
+}
+
+.services-card-head-title-1{
+    font-size: 30px;
+    color: var(--primary-color);
+}
+
+.services-card-head-title-2{
+    font-size: 12px;
+    font-family: var(--font-inter);
+    color: var(--text-color);
+}
+
+.services-card-subhead{
+    font-size: 22px;
+    font-family: var(--font-inter);
+    font-weight: lighter;
+}
+
+.services-card-item{
+    display: flex;
+    align-items: center;
+    font-family: var(--font-inter);
+    font-weight: 300;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.services-card-item-img{
+    width: 20px;
+    height: 20px;
+}
+
+.services-card-line{
+    width: 100%;
+    border: 0.5px dashed var(--text-color);
+}
+
+.services-card-bottom-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-card-price{
+    font-family: var(--font-outfit);
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.services-card-duration{
+    font-family: var(--font-outfit);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.services-card-btn{
+    width: 100%;
+    height: 64px;
+    margin-top: 10px;
+    border-radius: 40px;
+    position: relative;
+    text-align: center;
+    border: none;
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    font-family: var(--font-outfit);
+    font-size: 22px;
+}
+
+.services-card-btn:hover{
+    background-color: var(--primary-color);
+}
+
+.services-card-middle{
+    width: 374px;
+    height: 572px;
+    margin-top: -40px;
+    padding: 20px;
+    padding-top: 25px;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.services-card-m-btn{
+    width: 100%;
+    height: 64px;
+    margin-top: 10px;
+    border-radius: 40px;
+    position: relative;
+    text-align: center;
+    border: none;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    font-family: var(--font-outfit);
+    font-size: 22px;
+}
+
+.services-card-m-btn:hover{
+    background-color: var(--text-color);
+    color: white;
+}
+
+/* Learn more Section */
