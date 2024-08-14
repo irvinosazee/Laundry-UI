@@ -490,3 +490,53 @@ body, html {
     align-items: center;
     border-radius: 120px;
 }
+
+
+/* Footer */
+.footer{
+    height: 200px;
+    background-color: var(--secondary-color);
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.footer-text-container{
+    display: flex;
+    align-items: baseline;
+    font-family: var(--font-outfit);
+    gap: 30px;
+    color: var(--text-color);
+}
+
+.footer-about-us{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.footer-company{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.footer-services{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer-text-title{
+    font-weight: bold;
+    margin-bottom:6px;
+}
+
+.copyright{
+    font-family: var(--font-outfit);
+    color: var(--text-color);
+}
